@@ -12,7 +12,7 @@ import java.util.Map;
 
 
 public class StatusListener extends UnicastRemoteObject implements IStatusListener, Serializable {
-//    @Serial
+
     private static final long serialVersionUID = 1L;
     private final Map<Integer, InsideOrder> orders;
     private final DefaultTableModel orderModel;

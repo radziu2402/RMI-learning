@@ -24,7 +24,6 @@ import policy.CustomPolicy;
 public class ClientApp extends UnicastRemoteObject {
 
     private IShop shop;
-//    @Serial
     private static final long serialVersionUID = 1L;
     private int id;
     private List<ItemType> itemTypes = new ArrayList<>();
